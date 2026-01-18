@@ -38,7 +38,7 @@ nav ul li{/*spacing of tabs*/
 
 }
 nav ul li a{/*color & size of tabs*/
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -47,7 +47,7 @@ nav ul li a::after{/*effects when hovering over a tab*/
     content: '';
     width: 0;
     height: 3px;
-    background: white;
+    background: black;#TODO
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -203,5 +203,6 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 20px;
 
 }
+
 
 
