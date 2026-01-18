@@ -14,7 +14,7 @@ body{/*theme*/
 #header{/*header*/
     width: 100%;
     height: 100vh;
-    background-image: url(Assets/UI/background.png); /*TODO:*/
+    background-image: url(Assets/UI/Main.png); /*TODO:*/
     background-size: cover;
     background-position: center;
 }
@@ -201,4 +201,5 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     background: #d2b48c;
     font-weight: 300;
     margin-top: 20px;
+
 }
