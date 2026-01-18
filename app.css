@@ -55,6 +55,7 @@ nav ul li a::after{/*effects when hovering over a tab*/
 }
 nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     width: 100%;
+    color: black;
 }
 .header-text{/*header text stuff*/
     margin-top: 20%;
@@ -67,7 +68,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
 /* -------------about---------------- */
 #about{/*padding & color*/
     padding: 80px 0;
-    color: white; /*TODO:*/
+    color: black; /*TODO:*/
 }
 .row{/*sets the row*/
     display: flex;
@@ -203,6 +204,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 20px;
 
 }
+
 
 
 
