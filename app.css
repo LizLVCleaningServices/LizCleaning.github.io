@@ -145,7 +145,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
 }
 .work img{/*img of proj/re responsive & animated when hover*/
     border-radius: 10px;
-    width: 300px;      /* change as needed */
+    width: 10px;      /* change as needed */
     height: auto;      /* keeps aspect ratio */
     /*display: block;*/
     /*transition: transform 0.5s;*/
@@ -205,6 +205,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 20px;
 
 }
+
 
 
 
