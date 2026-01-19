@@ -132,18 +132,18 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
 #portfolio{/*parimeter of portfolio section*/
     padding: 50px 0;
 }
-.work-exp{/*TODO:grid style for proj*/
+.proj-list{/*TODO:grid style for proj*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.work{/*styles project section with round edges, hides overflow content*/
+.proj{/*styles project section with round edges, hides overflow content*/
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
-.work img{/*img of proj/re responsive & animated when hover*/
+.proj img{/*img of proj/re responsive & animated when hover*/
     border-radius: 10px;
     width: 10px;      /* change as needed */
     height: auto;      /* keeps aspect ratio */
@@ -205,6 +205,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 20px;
 
 }
+
 
 
 
