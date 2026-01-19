@@ -101,7 +101,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 50px;
 }
 .proj{/*styles project section with round edges, hides overflow content*/
-    height: 220px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -112,6 +112,11 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     height: 50%;
     object-fit: cover;
     display: block;
+}
+@media (max-width: 600px) {
+    .proj {
+        height: 180px;
+    }
 }
 /* ---------contact------ */
 .contact{
@@ -128,6 +133,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     font-weight: 300;
     margin-top: 20px;
 }
+
 
 
 
