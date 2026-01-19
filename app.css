@@ -103,7 +103,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
 .proj{/*styles project section with round edges, hides overflow content*/
     display: flex;
     flex-wrap: wrap;
-    height: 300px;           /* defines the area */
+    height: 200px;           /* defines the area */
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -129,4 +129,5 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     font-weight: 300;
     margin-top: 20px;
 }
+
 
