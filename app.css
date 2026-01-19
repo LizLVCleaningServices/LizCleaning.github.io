@@ -130,7 +130,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
 }*/
 /* ---------portfolio--------- */
 #portfolio{/*parimeter of portfolio section*/
-    padding: 50px 0;
+    padding: 0px 0;
 }
 .proj-list {
     display: grid;
@@ -205,6 +205,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 20px;
 
 }
+
 
 
 
