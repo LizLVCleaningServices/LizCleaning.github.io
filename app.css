@@ -101,16 +101,18 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     margin-top: 50px;
 }
 .proj{/*styles project section with round edges, hides overflow content*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;           /* defines the area */
     border-radius: 10px;
-    position: relative;
     overflow: hidden;
+    position: relative;
 }
 .proj img{/*img of proj/re responsive & animated when hover*/
-    border-radius: 10px;
-    width: 200%;      /* change as needed */
-    height: auto;      /* keeps aspect ratio */
-    /*display: block;*/
-    /*transition: transform 0.5s;*/
+     width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
 }
 /* ---------contact------ */
 .contact{
@@ -127,3 +129,4 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     font-weight: 300;
     margin-top: 20px;
 }
+
