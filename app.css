@@ -89,48 +89,10 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     font-size: 50px;
     font-weight: 600;
     color: black; /*TODO:*/
-}/*
-.tab-titles{sets the tabs
-    display: flex;
-    margin: 20px 0 40px;
 }
-.tab-links{styles & makes the tab buttons
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-}
-.tab-links::after{adds underline animation effect
-    content: '';
-    width: 0;
-    height: 3px;
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
-.tab-links.active-link::after{expands underline when tab is active
-    width: 50%;
-}
-.tab-contents ul li{lists items under active tab
-    list-style: none;
-    margin: 10px 0;
-}
-.tab-contents ul li span{styles bullet txt under active tab
-    color: rgba(202, 202, 202, 0);
-    font-size: 17px;
-}
-.tab-contents{initially hides tab content
-    display: none;
-}
-.tab-contents.active-tab{displays tab content when active
-    display: block;
-}*/
 /* ---------portfolio--------- */
 #portfolio{/*parimeter of portfolio section*/
-    padding: 40px;
+    padding: 40px 0;
 }
 .proj-list {
     display: grid;
@@ -149,46 +111,7 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     height: auto;      /* keeps aspect ratio */
     /*display: block;*/
     /*transition: transform 0.5s;*/
-}/*
-.layer{overlay effect for portfolio items
-    width: 100%;
-    height: 0%;
-    background: linear-gradient(#d2b48c, white); when hover transition in bg color for overlay section
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; gradient bg color from up/down
-    padding: 0 40px;
-    text-align: center;
-    font-size: 15px;
-    transition: height 0.5s;
 }
-.layer h3{txt in overlay
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.layer a{STYLES call to action button in overlay
-    margin-top: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background-color: #d2b48c;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-}
-.work:hover img{enalarges img while hover behind ovelay
-    transform: scale(1.1);
-}
-.work:hover .layer{display overlay when hover
-    height: 100%;
-}*/
 /* ---------contact------ */
 .contact{
     flex-basis: 100%;
@@ -203,22 +126,4 @@ nav ul li a:hover::after{/*animats underline effect when hovering over tab*/
     background: #d2b48c;
     font-weight: 300;
     margin-top: 20px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
